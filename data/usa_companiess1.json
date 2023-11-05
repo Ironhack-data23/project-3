@@ -1,0 +1,398 @@
+[
+    {
+        "name": "YUPPTV",
+        "category_code": "games_video",
+        "number_of_employees": 70,
+        "offices": [
+            {
+                "city": "Alpharetta",
+                "latitude": 17.415429,
+                "longitude": 78.434422
+            }
+        ]
+    },
+    {
+        "name": "Meteor Games",
+        "category_code": "games_video",
+        "number_of_employees": 70,
+        "offices": [
+            {
+                "city": "Beverly Hills",
+                "latitude": 34.09316,
+                "longitude": -118.378335
+            }
+        ]
+    },
+    {
+        "name": "Quickflix",
+        "category_code": "games_video",
+        "number_of_employees": 75,
+        "offices": [
+            {
+                "city": "Perth",
+                "latitude": null,
+                "longitude": null
+            }
+        ]
+    },
+    {
+        "name": "[212]Media",
+        "category_code": "games_video",
+        "number_of_employees": 75,
+        "offices": [
+            {
+                "city": "New York",
+                "latitude": 40.743877,
+                "longitude": -73.98618
+            }
+        ]
+    },
+    {
+        "name": "Origin Digital",
+        "category_code": "games_video",
+        "number_of_employees": 80,
+        "offices": [
+            {
+                "city": "Weehawken",
+                "latitude": 40.761979,
+                "longitude": -74.026033
+            }
+        ]
+    },
+    {
+        "name": "TransGaming",
+        "category_code": "games_video",
+        "number_of_employees": 80,
+        "offices": []
+    },
+    {
+        "name": "hi5",
+        "category_code": "games_video",
+        "number_of_employees": 100,
+        "offices": [
+            {
+                "city": "San Francisco",
+                "latitude": 37.788668,
+                "longitude": -122.400558
+            }
+        ]
+    },
+    {
+        "name": "mig33",
+        "category_code": "games_video",
+        "number_of_employees": 100,
+        "offices": [
+            {
+                "city": "Singapore",
+                "latitude": 37.580304,
+                "longitude": -122.343679
+            }
+        ]
+    },
+    {
+        "name": "Social Gaming Network",
+        "category_code": "games_video",
+        "number_of_employees": 100,
+        "offices": [
+            {
+                "city": "Los Angeles",
+                "latitude": 37.446823,
+                "longitude": -122.161523
+            },
+            {
+                "city": "Beverly Hills",
+                "latitude": 34.0698494,
+                "longitude": -118.4054182
+            }
+        ]
+    },
+    {
+        "name": "VBS TV",
+        "category_code": "games_video",
+        "number_of_employees": 100,
+        "offices": [
+            {
+                "city": "Brooklyn",
+                "latitude": 40.720764,
+                "longitude": -73.957968
+            }
+        ]
+    },
+    {
+        "name": "Whereismyboss",
+        "category_code": "games_video",
+        "number_of_employees": 100,
+        "offices": [
+            {
+                "city": "",
+                "latitude": null,
+                "longitude": null
+            }
+        ]
+    },
+    {
+        "name": "ZillionTV",
+        "category_code": "games_video",
+        "number_of_employees": 100,
+        "offices": [
+            {
+                "city": "Sunnyvale",
+                "latitude": 37.3738725,
+                "longitude": -121.9973546
+            },
+            {
+                "city": "Santa Monica",
+                "latitude": 34.016838,
+                "longitude": -118.500603
+            }
+        ]
+    },
+    {
+        "name": "Exent",
+        "category_code": "games_video",
+        "number_of_employees": 100,
+        "offices": [
+            {
+                "city": "New York",
+                "latitude": 40.7523796,
+                "longitude": -74.005568
+            },
+            {
+                "city": "Petach-Tikva",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "city": "San Francisco",
+                "latitude": 37.787646,
+                "longitude": -122.402759
+            }
+        ]
+    },
+    {
+        "name": "iWin",
+        "category_code": "games_video",
+        "number_of_employees": 103,
+        "offices": [
+            {
+                "city": "San Francisco",
+                "latitude": 37.781689,
+                "longitude": -122.391061
+            }
+        ]
+    },
+    {
+        "name": "2 Minutes",
+        "category_code": "games_video",
+        "number_of_employees": 105,
+        "offices": [
+            {
+                "city": "Paris",
+                "latitude": 48.8502056,
+                "longitude": 2.3698033
+            }
+        ]
+    },
+    {
+        "name": "RockYou",
+        "category_code": "games_video",
+        "number_of_employees": 106,
+        "offices": [
+            {
+                "city": "Redwood City",
+                "latitude": 37.484619,
+                "longitude": -122.206893
+            }
+        ]
+    },
+    {
+        "name": "G5 Entertainment",
+        "category_code": "games_video",
+        "number_of_employees": 107,
+        "offices": [
+            {
+                "city": "Kharkov",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "city": "Stockholm",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "city": "San Francisco",
+                "latitude": null,
+                "longitude": null
+            }
+        ]
+    },
+    {
+        "name": "Zynga",
+        "category_code": "games_video",
+        "number_of_employees": 115,
+        "offices": [
+            {
+                "city": "San Francisco",
+                "latitude": 37.765158,
+                "longitude": -122.404234
+            },
+            {
+                "city": "",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "city": "Baltimore",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "city": "Los Angeles",
+                "latitude": null,
+                "longitude": null
+            }
+        ]
+    },
+    {
+        "name": "Aspiro",
+        "category_code": "games_video",
+        "number_of_employees": 115,
+        "offices": [
+            {
+                "city": "Malmo",
+                "latitude": null,
+                "longitude": null
+            }
+        ]
+    },
+    {
+        "name": "Livestream",
+        "category_code": "games_video",
+        "number_of_employees": 120,
+        "offices": [
+            {
+                "city": "New York",
+                "latitude": 40.726155,
+                "longitude": -73.995625
+            }
+        ]
+    },
+    {
+        "name": "PlayNetwork",
+        "category_code": "games_video",
+        "number_of_employees": 122,
+        "offices": []
+    },
+    {
+        "name": "Modern Feed",
+        "category_code": "games_video",
+        "number_of_employees": 123,
+        "offices": [
+            {
+                "city": "Los Angeles",
+                "latitude": 34.085749,
+                "longitude": -118.343791
+            }
+        ]
+    },
+    {
+        "name": "RGB Networks",
+        "category_code": "games_video",
+        "number_of_employees": 125,
+        "offices": [
+            {
+                "city": "Sunnyvale",
+                "latitude": 37.4123706,
+                "longitude": -122.0216271
+            }
+        ]
+    },
+    {
+        "name": "Z2Live",
+        "category_code": "games_video",
+        "number_of_employees": 130,
+        "offices": [
+            {
+                "city": "Seattle",
+                "latitude": 47.6103008,
+                "longitude": -122.3399782
+            }
+        ]
+    },
+    {
+        "name": "Miniclip",
+        "category_code": "games_video",
+        "number_of_employees": 140,
+        "offices": [
+            {
+                "city": "",
+                "latitude": null,
+                "longitude": null
+            }
+        ]
+    },
+    {
+        "name": "Boonty",
+        "category_code": "games_video",
+        "number_of_employees": 150,
+        "offices": [
+            {
+                "city": "New York",
+                "latitude": 40.717248,
+                "longitude": -74.002662
+            }
+        ]
+    },
+    {
+        "name": "ngmoco",
+        "category_code": "games_video",
+        "number_of_employees": 150,
+        "offices": [
+            {
+                "city": "San Francisco",
+                "latitude": 37.7705096,
+                "longitude": -122.4015807
+            }
+        ]
+    },
+    {
+        "name": "i-Jet Media",
+        "category_code": "games_video",
+        "number_of_employees": 150,
+        "offices": [
+            {
+                "city": "Sunnyvale",
+                "latitude": 37.384239,
+                "longitude": -122.012475
+            },
+            {
+                "city": "Ekaterinburg",
+                "latitude": null,
+                "longitude": null
+            }
+        ]
+    },
+    {
+        "name": "NaturalMotion",
+        "category_code": "games_video",
+        "number_of_employees": 150,
+        "offices": [
+            {
+                "city": "Oxford",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "city": "San Francisco",
+                "latitude": 37.7875304,
+                "longitude": -122.3989996
+            },
+            {
+                "city": "London",
+                "latitude": null,
+                "longitude": null
+            }
+        ]
+    }
+]

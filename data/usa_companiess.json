@@ -1,0 +1,225 @@
+[
+    {
+        "name": "hi5",
+        "category_code": "games_video",
+        "number_of_employees": 100,
+        "offices": [
+            {
+                "city": "San Francisco",
+                "country_code": "USA",
+                "latitude": 37.788668,
+                "longitude": -122.400558
+            }
+        ]
+    },
+    {
+        "name": "Social Gaming Network",
+        "category_code": "games_video",
+        "number_of_employees": 100,
+        "offices": [
+            {
+                "city": "Los Angeles",
+                "country_code": "USA",
+                "latitude": 37.446823,
+                "longitude": -122.161523
+            },
+            {
+                "city": "Beverly Hills",
+                "country_code": "USA",
+                "latitude": 34.0698494,
+                "longitude": -118.4054182
+            }
+        ]
+    },
+    {
+        "name": "VBS TV",
+        "category_code": "games_video",
+        "number_of_employees": 100,
+        "offices": [
+            {
+                "city": "Brooklyn",
+                "country_code": "USA",
+                "latitude": 40.720764,
+                "longitude": -73.957968
+            }
+        ]
+    },
+    {
+        "name": "ZillionTV",
+        "category_code": "games_video",
+        "number_of_employees": 100,
+        "offices": [
+            {
+                "city": "Sunnyvale",
+                "country_code": "USA",
+                "latitude": 37.3738725,
+                "longitude": -121.9973546
+            },
+            {
+                "city": "Santa Monica",
+                "country_code": "USA",
+                "latitude": 34.016838,
+                "longitude": -118.500603
+            }
+        ]
+    },
+    {
+        "name": "Exent",
+        "category_code": "games_video",
+        "number_of_employees": 100,
+        "offices": [
+            {
+                "city": "New York",
+                "country_code": "USA",
+                "latitude": 40.7523796,
+                "longitude": -74.005568
+            },
+            {
+                "city": "Petach-Tikva",
+                "country_code": "ISR",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "city": "San Francisco",
+                "country_code": "USA",
+                "latitude": 37.787646,
+                "longitude": -122.402759
+            }
+        ]
+    },
+    {
+        "name": "iWin",
+        "category_code": "games_video",
+        "number_of_employees": 103,
+        "offices": [
+            {
+                "city": "San Francisco",
+                "country_code": "USA",
+                "latitude": 37.781689,
+                "longitude": -122.391061
+            }
+        ]
+    },
+    {
+        "name": "RockYou",
+        "category_code": "games_video",
+        "number_of_employees": 106,
+        "offices": [
+            {
+                "city": "Redwood City",
+                "country_code": "USA",
+                "latitude": 37.484619,
+                "longitude": -122.206893
+            }
+        ]
+    },
+    {
+        "name": "G5 Entertainment",
+        "category_code": "games_video",
+        "number_of_employees": 107,
+        "offices": [
+            {
+                "city": "Kharkov",
+                "country_code": "UKR",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "city": "Stockholm",
+                "country_code": "SWE",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "city": "San Francisco",
+                "country_code": "USA",
+                "latitude": null,
+                "longitude": null
+            }
+        ]
+    },
+    {
+        "name": "Zynga",
+        "category_code": "games_video",
+        "number_of_employees": 115,
+        "offices": [
+            {
+                "city": "San Francisco",
+                "country_code": "USA",
+                "latitude": 37.765158,
+                "longitude": -122.404234
+            },
+            {
+                "city": "",
+                "country_code": "IND",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "city": "Baltimore",
+                "country_code": "USA",
+                "latitude": null,
+                "longitude": null
+            },
+            {
+                "city": "Los Angeles",
+                "country_code": "USA",
+                "latitude": null,
+                "longitude": null
+            }
+        ]
+    },
+    {
+        "name": "Livestream",
+        "category_code": "games_video",
+        "number_of_employees": 120,
+        "offices": [
+            {
+                "city": "New York",
+                "country_code": "USA",
+                "latitude": 40.726155,
+                "longitude": -73.995625
+            }
+        ]
+    },
+    {
+        "name": "Modern Feed",
+        "category_code": "games_video",
+        "number_of_employees": 123,
+        "offices": [
+            {
+                "city": "Los Angeles",
+                "country_code": "USA",
+                "latitude": 34.085749,
+                "longitude": -118.343791
+            }
+        ]
+    },
+    {
+        "name": "RGB Networks",
+        "category_code": "games_video",
+        "number_of_employees": 125,
+        "offices": [
+            {
+                "city": "Sunnyvale",
+                "country_code": "USA",
+                "latitude": 37.4123706,
+                "longitude": -122.0216271
+            }
+        ]
+    },
+    {
+        "name": "Z2Live",
+        "category_code": "games_video",
+        "number_of_employees": 130,
+        "offices": [
+            {
+                "city": "Seattle",
+                "country_code": "USA",
+                "latitude": 47.6103008,
+                "longitude": -122.3399782
+            }
+        ]
+    }
+]
