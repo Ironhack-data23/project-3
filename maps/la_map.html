@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b87a1f0553760ee12c0f686aaba677bc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b87a1f0553760ee12c0f686aaba677bc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b87a1f0553760ee12c0f686aaba677bc = L.map(
+                "map_b87a1f0553760ee12c0f686aaba677bc",
+                {
+                    center: [34.085749, -118.343791],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9c30a071df1b09e9c5f1e045686bff25 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var marker_73fce044c2dc7cee9004f2cb45210018 = L.marker(
+                [34.085749, -118.343791],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_5c1ada8bfea3fbaa4522e2f0ca49134a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hand-paper", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_73fce044c2dc7cee9004f2cb45210018.setIcon(icon_5c1ada8bfea3fbaa4522e2f0ca49134a);
+        
+    
+            var marker_33613a2fc4133eb8c68a4e84d78aecc2 = L.marker(
+                [34.075883, -118.344968],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_3f2534c9920c13dee7cde2142ed1f324 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "green", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_33613a2fc4133eb8c68a4e84d78aecc2.setIcon(icon_3f2534c9920c13dee7cde2142ed1f324);
+        
+    
+            var marker_8fec6f13b45045e74fd38870197a76c3 = L.marker(
+                [34.087868, -118.344493],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_29840e12396127c36dbadf7536cdeb22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8fec6f13b45045e74fd38870197a76c3.setIcon(icon_29840e12396127c36dbadf7536cdeb22);
+        
+    
+            var marker_3da3cc1a78e3a0fa3ec4b95f316f4e07 = L.marker(
+                [34.102303, -118.329913],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_636856466e30656ee571e151c2c4a009 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_3da3cc1a78e3a0fa3ec4b95f316f4e07.setIcon(icon_636856466e30656ee571e151c2c4a009);
+        
+    
+            var marker_3759229815931d7ba8050c3e51c604ec = L.marker(
+                [34.102009, -118.320849],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_6ef5da99e627741117ee0028e8d05649 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_3759229815931d7ba8050c3e51c604ec.setIcon(icon_6ef5da99e627741117ee0028e8d05649);
+        
+    
+            var marker_0e3ab902660766cb4344e3cee5b925e9 = L.marker(
+                [34.09038, -118.314966],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_10420d0bdf05970749d3d594da09776e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-basketball-ball\u0027", "iconColor": "black", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_0e3ab902660766cb4344e3cee5b925e9.setIcon(icon_10420d0bdf05970749d3d594da09776e);
+        
+    
+            var marker_a5248e5c14b84f962a8998a4c74138ee = L.marker(
+                [34.076414, -118.353962],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_6c08f90f1752c4d47288b3d66ba199ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_a5248e5c14b84f962a8998a4c74138ee.setIcon(icon_6c08f90f1752c4d47288b3d66ba199ae);
+        
+    
+            var marker_f1e694ca43c9ef446029710875887735 = L.marker(
+                [34.098146, -118.343489],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_f788164ae52aac867988a19f0b816c60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "green", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_f1e694ca43c9ef446029710875887735.setIcon(icon_f788164ae52aac867988a19f0b816c60);
+        
+    
+            var marker_8bb78aec51b6b294c7687700e6a10faa = L.marker(
+                [34.088039, -118.336643],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_e1a57a80f709e7c2bd5d826ec712b1bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8bb78aec51b6b294c7687700e6a10faa.setIcon(icon_e1a57a80f709e7c2bd5d826ec712b1bb);
+        
+    
+            var marker_2244c0f433f64b2bf74289aa9fa2cc11 = L.marker(
+                [34.098241, -118.341722],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_cb5bde14027ae7d2176c919596eeaa89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_2244c0f433f64b2bf74289aa9fa2cc11.setIcon(icon_cb5bde14027ae7d2176c919596eeaa89);
+        
+    
+            var marker_9431adf874bae2e753bba514d477d2dd = L.marker(
+                [34.083755, -118.349012],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_f9bb020de230e99defbec2a855be5caa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_9431adf874bae2e753bba514d477d2dd.setIcon(icon_f9bb020de230e99defbec2a855be5caa);
+        
+    
+            var marker_990b327f4783f2248feb2c622a6e0847 = L.marker(
+                [34.102104, -118.319082],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_40f59d6b499b08e53dddbd634a51494b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-basketball-ball\u0027", "iconColor": "black", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_990b327f4783f2248feb2c622a6e0847.setIcon(icon_40f59d6b499b08e53dddbd634a51494b);
+        
+    
+            var marker_53f8c105e4aca1123aec39ba6d0e9842 = L.marker(
+                [34.083725, -118.346959],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_b82705f984f648057405408d18ca6efc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_53f8c105e4aca1123aec39ba6d0e9842.setIcon(icon_b82705f984f648057405408d18ca6efc);
+        
+    
+            var marker_292bf6b11bf40534fc9f34a9343ff8c0 = L.marker(
+                [34.083539, -118.356152],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_c7c70ebfcaee9c1aade5a2360590d912 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "green", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_292bf6b11bf40534fc9f34a9343ff8c0.setIcon(icon_c7c70ebfcaee9c1aade5a2360590d912);
+        
+    
+            var marker_461549af480de8ce34497b35854e74e5 = L.marker(
+                [34.097772, -118.346453],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_291ab23bcea7593d0a1e29f8e51a5323 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_461549af480de8ce34497b35854e74e5.setIcon(icon_291ab23bcea7593d0a1e29f8e51a5323);
+        
+    
+            var marker_db77471962b35e56159728f697f1c06a = L.marker(
+                [34.063656, -118.35928],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_fff38278d342a5c194fe1a5e7d2cd171 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_db77471962b35e56159728f697f1c06a.setIcon(icon_fff38278d342a5c194fe1a5e7d2cd171);
+        
+    
+            var marker_e0957028f15b53d359ad772d4f707784 = L.marker(
+                [34.090931, -118.332241],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_0a34b4bf50aff46212bb96394feaf8b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_e0957028f15b53d359ad772d4f707784.setIcon(icon_0a34b4bf50aff46212bb96394feaf8b6);
+        
+    
+            var marker_a55bc3e105e0a77873304f2215dfbc6a = L.marker(
+                [34.102058, -118.319435],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_19c957277a6adb20b6afbebd61ef196e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-basketball-ball\u0027", "iconColor": "black", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a55bc3e105e0a77873304f2215dfbc6a.setIcon(icon_19c957277a6adb20b6afbebd61ef196e);
+        
+    
+            var marker_aa1834347d9a2b3b85f4140e0fa9a570 = L.marker(
+                [34.090812, -118.345319],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_fa061fdf46daf57e7c3eba3c367cfffa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_aa1834347d9a2b3b85f4140e0fa9a570.setIcon(icon_fa061fdf46daf57e7c3eba3c367cfffa);
+        
+    
+            var marker_8e71dca9c22c7efc4bad2f15de19d6b9 = L.marker(
+                [34.090394, -118.326288],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_632095d29e38757839094cb271e010cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "green", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_8e71dca9c22c7efc4bad2f15de19d6b9.setIcon(icon_632095d29e38757839094cb271e010cf);
+        
+    
+            var marker_2a13e1eb27578bc9e63369e2294b3508 = L.marker(
+                [34.099106, -118.340182],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_1d41052e8db64250f05cc81cdad6cd7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2a13e1eb27578bc9e63369e2294b3508.setIcon(icon_1d41052e8db64250f05cc81cdad6cd7f);
+        
+    
+            var marker_5de4158c4a3b4efcdfc8ee9c18f0d1a6 = L.marker(
+                [34.099939, -118.324985],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_943a132e6ab2919efc0f64a6d7eb395e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_5de4158c4a3b4efcdfc8ee9c18f0d1a6.setIcon(icon_943a132e6ab2919efc0f64a6d7eb395e);
+        
+    
+            var marker_9f3c6cabcbd7b629d1294b2b0799bf4d = L.marker(
+                [34.100064, -118.330153],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_d29e848bc6476fdcbad36c55096e34e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_9f3c6cabcbd7b629d1294b2b0799bf4d.setIcon(icon_d29e848bc6476fdcbad36c55096e34e7);
+        
+    
+            var marker_2ec396ffd438b422807d0096438fa490 = L.marker(
+                [34.087743, -118.350008],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_cb35aaf1116cd45495341de476ccd240 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-basketball-ball\u0027", "iconColor": "black", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_2ec396ffd438b422807d0096438fa490.setIcon(icon_cb35aaf1116cd45495341de476ccd240);
+        
+    
+            var marker_4ccc071fe85b2a60b2a0cf737f5ad48b = L.marker(
+                [34.08389, -118.369316],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_b9eee56a1e6b376157276d3330af13fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_4ccc071fe85b2a60b2a0cf737f5ad48b.setIcon(icon_b9eee56a1e6b376157276d3330af13fd);
+        
+    
+            var marker_01bb4709a0c2034e2f6c4ef4c798545e = L.marker(
+                [34.098717, -118.348452],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_60929085afe4528b66441ca26457355a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "green", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_01bb4709a0c2034e2f6c4ef4c798545e.setIcon(icon_60929085afe4528b66441ca26457355a);
+        
+    
+            var marker_fa2c2a28ea1fa0b39b8b2132e8a28c0f = L.marker(
+                [34.082054, -118.359943],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_6667fe23bb1be8bef2e60fee212b44ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fa2c2a28ea1fa0b39b8b2132e8a28c0f.setIcon(icon_6667fe23bb1be8bef2e60fee212b44ac);
+        
+    
+            var marker_ebeeb073e27a8b355d5687ed1ae02688 = L.marker(
+                [34.09043, -118.341783],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_35a79894d32d9c3bf801ccd77433b8c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_ebeeb073e27a8b355d5687ed1ae02688.setIcon(icon_35a79894d32d9c3bf801ccd77433b8c7);
+        
+    
+            var marker_a760698c4ca5c28aa579180caedc3399 = L.marker(
+                [34.101016, -118.335832],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_ac83f95d3d5d3fe3c428f3898337e6a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_a760698c4ca5c28aa579180caedc3399.setIcon(icon_ac83f95d3d5d3fe3c428f3898337e6a9);
+        
+    
+            var marker_b61f32b556328f7f21103268d0967284 = L.marker(
+                [34.092911, -118.351099],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_23dcd8f423e59caeed0805478bf09ab7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-basketball-ball\u0027", "iconColor": "black", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b61f32b556328f7f21103268d0967284.setIcon(icon_23dcd8f423e59caeed0805478bf09ab7);
+        
+    
+            var marker_d5554152c1f9d0738da35c5cc57e5a3c = L.marker(
+                [34.091353, -118.343428],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_ec47b13368f84a47c284fc667fa06f6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_d5554152c1f9d0738da35c5cc57e5a3c.setIcon(icon_ec47b13368f84a47c284fc667fa06f6e);
+        
+    
+            var marker_f1b9b21816a8f64eb5f748235af792d1 = L.marker(
+                [34.070048, -118.343582],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_11a2bea300765e0ff7402251dc84440a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "green", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_f1b9b21816a8f64eb5f748235af792d1.setIcon(icon_11a2bea300765e0ff7402251dc84440a);
+        
+    
+            var marker_079a5a723499b5d87c7070f93a9e9095 = L.marker(
+                [34.080083, -118.359268],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_85369c563e536bfe5d930ff9530ae850 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_079a5a723499b5d87c7070f93a9e9095.setIcon(icon_85369c563e536bfe5d930ff9530ae850);
+        
+    
+            var marker_bd5af9d842d9f48315ecd3a106a98e87 = L.marker(
+                [34.09634, -118.344869],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_250af04d110b9b681c4fd7553a234806 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_bd5af9d842d9f48315ecd3a106a98e87.setIcon(icon_250af04d110b9b681c4fd7553a234806);
+        
+    
+            var marker_5701a43a0b37ce69d905407ef13aaff8 = L.marker(
+                [34.083549, -118.367471],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_5868446d9aa2f984724880a89b870733 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_5701a43a0b37ce69d905407ef13aaff8.setIcon(icon_5868446d9aa2f984724880a89b870733);
+        
+    
+            var marker_0667ffb626b9e7731e5f3a5c2d6b80bd = L.marker(
+                [34.076293, -118.355516],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_89d0104d7d2849a4e05441f9adcddb92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-basketball-ball\u0027", "iconColor": "black", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_0667ffb626b9e7731e5f3a5c2d6b80bd.setIcon(icon_89d0104d7d2849a4e05441f9adcddb92);
+        
+    
+            var marker_f99224b9b5aaf29d744c1b4d05f78139 = L.marker(
+                [34.090055, -118.338946],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_3e50dcbda01c9b74d7c67fe040c8cc77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_f99224b9b5aaf29d744c1b4d05f78139.setIcon(icon_3e50dcbda01c9b74d7c67fe040c8cc77);
+        
+    
+            var marker_0d4f9c518be979c23f0c183b38f452c0 = L.marker(
+                [34.101741, -118.337331],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_0ef0df20cecc555bede39f7e05d6251c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "green", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_0d4f9c518be979c23f0c183b38f452c0.setIcon(icon_0ef0df20cecc555bede39f7e05d6251c);
+        
+    
+            var marker_df4713abacd06c77c26243683ae51a2b = L.marker(
+                [34.091025, -118.327573],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_74630fb4c45356f16287610624c756f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_df4713abacd06c77c26243683ae51a2b.setIcon(icon_74630fb4c45356f16287610624c756f9);
+        
+    
+            var marker_ac25427b99a15577ba8c88e38c6a9999 = L.marker(
+                [34.075066, -118.342194],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_7809b137560382c63fcf3ca16b98adc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_ac25427b99a15577ba8c88e38c6a9999.setIcon(icon_7809b137560382c63fcf3ca16b98adc8);
+        
+    
+            var marker_1f57147b57a59a16ff0bb6e9348ce798 = L.marker(
+                [34.097758, -118.352679],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_946c60d8e9384fce7147535a9f640f4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_1f57147b57a59a16ff0bb6e9348ce798.setIcon(icon_946c60d8e9384fce7147535a9f640f4c);
+        
+    
+            var marker_7fb0666c43323e2410de05fafd463931 = L.marker(
+                [34.090837, -118.374616],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_2226373e7ddee21cb1268de6f244682c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-basketball-ball\u0027", "iconColor": "black", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7fb0666c43323e2410de05fafd463931.setIcon(icon_2226373e7ddee21cb1268de6f244682c);
+        
+    
+            var marker_d28a55a4d86cf8d006061054cccea87a = L.marker(
+                [34.090601, -118.364],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_e62abf6478a3178677bb3fbb03b86bfe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_d28a55a4d86cf8d006061054cccea87a.setIcon(icon_e62abf6478a3178677bb3fbb03b86bfe);
+        
+    
+            var marker_c2bf52b4b25ea56b87e02646c7a3339d = L.marker(
+                [34.061893, -118.338898],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_57aa8f66d3a5bc30c95e22d3f3de1c7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "green", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_c2bf52b4b25ea56b87e02646c7a3339d.setIcon(icon_57aa8f66d3a5bc30c95e22d3f3de1c7e);
+        
+    
+            var marker_fec02066e72d1699d82bc08e1842bb6d = L.marker(
+                [34.098155, -118.334503],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_c23b7a64f69151d98c8b3d5062698342 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fec02066e72d1699d82bc08e1842bb6d.setIcon(icon_c23b7a64f69151d98c8b3d5062698342);
+        
+    
+            var marker_499bb01348452ce90590258f8d8e9e9d = L.marker(
+                [34.097028, -118.354221],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_397bc8cbe0961bbb86c60af1aaa47895 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_499bb01348452ce90590258f8d8e9e9d.setIcon(icon_397bc8cbe0961bbb86c60af1aaa47895);
+        
+    
+            var marker_9dbcc7ed93510b4fbf9fecc47039a32e = L.marker(
+                [34.098257, -118.364504],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_3adf2717d4adc427cef0b6a656bda663 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_9dbcc7ed93510b4fbf9fecc47039a32e.setIcon(icon_3adf2717d4adc427cef0b6a656bda663);
+        
+    
+            var marker_c4d39b38a8eaf676eea9fd59af7f15fb = L.marker(
+                [34.101362, -118.343442],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_335c917b9555183d5a4d06893b6cabec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-basketball-ball\u0027", "iconColor": "black", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c4d39b38a8eaf676eea9fd59af7f15fb.setIcon(icon_335c917b9555183d5a4d06893b6cabec);
+        
+    
+            var marker_4d7da14091332f0dae113727d9718519 = L.marker(
+                [34.086137, -118.329107],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_8135de56488d4baec05f543def07e93e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_4d7da14091332f0dae113727d9718519.setIcon(icon_8135de56488d4baec05f543def07e93e);
+        
+    
+            var marker_f17b952f60d7cb26cacd5b89515334d8 = L.marker(
+                [34.097423, -118.32246],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_6cfc4981abad023866816f10af113be9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "green", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_f17b952f60d7cb26cacd5b89515334d8.setIcon(icon_6cfc4981abad023866816f10af113be9);
+        
+    
+            var marker_5cc50f3cea422c4a0118e9e32e5ffeea = L.marker(
+                [34.070303, -118.336231],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_4bad370a7f6d4e877d0284e58bc3c39f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5cc50f3cea422c4a0118e9e32e5ffeea.setIcon(icon_4bad370a7f6d4e877d0284e58bc3c39f);
+        
+    
+            var marker_d8bf4a86ef826b659d04abe90961e5df = L.marker(
+                [34.098217, -118.34533],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_4aeff555fac0e1a114eb4c0da57847ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_d8bf4a86ef826b659d04abe90961e5df.setIcon(icon_4aeff555fac0e1a114eb4c0da57847ec);
+        
+    
+            var marker_14ac9ee01e244a5dee247e4793a250c7 = L.marker(
+                [34.098477, -118.324249],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_be22c8678ec1da06d3212fc7b999ecd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_14ac9ee01e244a5dee247e4793a250c7.setIcon(icon_be22c8678ec1da06d3212fc7b999ecd8);
+        
+    
+            var marker_b7065c34e448458af5281a98934cc637 = L.marker(
+                [34.07479, -118.344311],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_50b11aca55be717042be140f4a68665c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-basketball-ball\u0027", "iconColor": "black", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b7065c34e448458af5281a98934cc637.setIcon(icon_50b11aca55be717042be140f4a68665c);
+        
+    
+            var marker_8eaa8b27eadf2e5ac6fadbfe9984da03 = L.marker(
+                [34.076414, -118.353962],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_ddde85aab3c8539ebb1ba8ba323babe4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_8eaa8b27eadf2e5ac6fadbfe9984da03.setIcon(icon_ddde85aab3c8539ebb1ba8ba323babe4);
+        
+    
+            var marker_bcee6362ad09f328fc63c942327449bb = L.marker(
+                [34.074908, -118.323373],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_e51b1bc2a86bdd5dc57c71d69d7c36e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "green", "markerColor": "white", "prefix": "fa"}
+            );
+            marker_bcee6362ad09f328fc63c942327449bb.setIcon(icon_e51b1bc2a86bdd5dc57c71d69d7c36e3);
+        
+    
+            var marker_a4ef04aac3d6d3fd7e449e9c86ff8283 = L.marker(
+                [34.10058, -118.33087],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_66dac70905bf8f17c6eee31e44d8bdb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "graduation-cap", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a4ef04aac3d6d3fd7e449e9c86ff8283.setIcon(icon_66dac70905bf8f17c6eee31e44d8bdb3);
+        
+    
+            var marker_796536e726b8e1f59505b796579ad21e = L.marker(
+                [34.091069, -118.364151],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_967c8d79a5e21ae8eb0b824df7e78376 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_796536e726b8e1f59505b796579ad21e.setIcon(icon_967c8d79a5e21ae8eb0b824df7e78376);
+        
+    
+            var marker_76a73bb10f6023cabb0aae24592751ae = L.marker(
+                [34.063424, -118.359015],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_0c2955d65591bb2a66a45f5b35d4d027 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "lightred", "prefix": "fa"}
+            );
+            marker_76a73bb10f6023cabb0aae24592751ae.setIcon(icon_0c2955d65591bb2a66a45f5b35d4d027);
+        
+    
+            var marker_f4c5c1d3ea2ea5e1090753801e612206 = L.marker(
+                [34.070055, -118.326818],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_864d05a3daeac4de6eb420f2b2596b1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-basketball-ball\u0027", "iconColor": "black", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_f4c5c1d3ea2ea5e1090753801e612206.setIcon(icon_864d05a3daeac4de6eb420f2b2596b1d);
+        
+    
+            var marker_fe08d150d03c0121bd42e8967ede1b4b = L.marker(
+                [34.08364, -118.327998],
+                {}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+    
+            var icon_306b1c850489a251b530970e61bb1bf2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "paw", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_fe08d150d03c0121bd42e8967ede1b4b.setIcon(icon_306b1c850489a251b530970e61bb1bf2);
+        
+    
+            var circle_93260322fb81f7faea8ad0c449b3eb72 = L.circle(
+                [34.085749, -118.343791],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3000, "stroke": true, "weight": 3}
+            ).addTo(map_b87a1f0553760ee12c0f686aaba677bc);
+        
+</script>
+</html>
