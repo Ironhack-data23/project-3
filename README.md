@@ -51,6 +51,7 @@ Finally, Part III in which a final decision is made based on the price of the sq
 each required place and the selected office.
 
 ### Visualization 
+Map visualization of each city:
 
 <p align="center">
 <img src="images\NY.png" alt="image" style="width:500px;height:auto;">
@@ -61,3 +62,38 @@ each required place and the selected office.
 <p align="center">
 <img src="images\LA.png" alt="image" style="width:500px;height:auto;">
 </div>
+
+Observing the various maps, it is evident that all the cities fulfill the specified criteria. Consequently, I conducted an additional analysis to determine the distances between these locations and our main office.
+
+
+|    Places   | San Francisco |   New York   | Los Angeles |
+|    :---:    |     :---:     |     :---:    |    :---:    |
+|  Starbucks  |    609.72m    |    550.57m   |   1164.58m  |
+|   Schools   |    1125.45m   |    904.79m   |   705.79m   |
+|   Airport   |    427.521m   |   2047.453m  |   1196.97m  |
+|    Clubs    |    309.42m    |    873.88m   |   1849.06m  |
+|  Basketball |    1406.78m   |   1273.58m   |   613.96m   |
+|    Pets     |     50.86m    |    450.54m   |   624.03m   |
+
+
+<div style="text-align:justify">
+
+The optimal office location would be positioned between the cities of New York and San Francisco. Nevertheless, any of the identified cities would serve as a favorable option.
+
+Now, a critical decision lies ahead: New York or San Francisco?
+
+Considering this is our inaugural office studio and our goal is to save money for future business expansions, the prudent choice is to select the location with the more cost-effective sales or rental options. To make an informed decision, I conducted web scraping to gather data on square-meter prices in these cities. While attempts were made to scrape official websites containing real office listings, unfortunately, they were not accessible.
+
+Here are the results obtained: 
+
+|    Ranki   |    Location       |   Price   | 
+|    :---:   |     :---:         |  :---:    |  
+|    1 (2)   | New York, NY      |   15900$  | 
+|    2 (4)   | San Francisco, CA |   13518$  |  
+|    3 (12)  | Los Angeles, CA   |    9531$  |
+
+With significant disparities in prices across various cities, our initial preferences, New York and San Francisco, presented diverse cost implications. After thorough evaluation, the decision leans towards financial prudence. Consequently, we have chosen San Francisco as the location for our inaugural office studio. This strategic move aligns with our commitment to maximizing resources for the future growth of our gaming business.
+
+## Links
+
+[Canva presentation](https://www.canva.com/design/DAFzZmLoWn0/H1wIXX0qelzf30jhGhWr_g/edit?ui=eyJHIjp7fX0)
